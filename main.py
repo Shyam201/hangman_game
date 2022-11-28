@@ -47,6 +47,7 @@ while not end_of_game:
             end_of_game = True
             print("You lose.")
 
+
     # Join all the elements in the list and turn it into a String.
     print(f"{' '.join(display)}")
 
@@ -55,11 +56,12 @@ while not end_of_game:
         end_of_game = True
         print("You win.")
 
+
     #Import the stages from hangman_art.py and make this error go away.
     from hangman_art import stages
 
     print(stages[lives])
-
+print(f"The word was {chosen_word}")
 
 
 
